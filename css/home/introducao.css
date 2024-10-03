@@ -14,11 +14,11 @@
   padding-bottom: 200px;
 }
 
+/* Ajustes na imagem */
 .introducao img {
-  width: 100%;
-  margin-bottom: -120px;
-  height: 100%;
-  object-fit: cover;
+  width: 100%; /* A imagem ocupa 100% da largura do container */
+  height: auto; /* Mantém a proporção correta da imagem */
+  object-fit: cover; /* A imagem cobre o espaço sem distorção */
   border-radius: 4px;
 }
 
@@ -30,24 +30,29 @@
   margin-bottom: 20px;
 }
 
+/* Media Queries para dispositivos móveis */
 @media (max-width: 800px) {
   .introducao-bg {
     background: var(--cor-11);
     padding-top: 40px;
     box-shadow: inset 0 -60px #ffffff;
   }
+  
   .introducao {
-    grid-template-columns: 1fr;
-    gap: 32px;
+    grid-template-columns: 1fr; /* Muda para uma coluna em dispositivos móveis */
+    gap: 32px; /* Ajusta o espaçamento entre os elementos */
   }
+
   .introducao-conteudo {
-    padding-bottom: 0px;
+    padding-bottom: 0px; /* Remove o padding inferior */
   }
+
   .introducao h1 {
-    margin-bottom: 16px;
+    margin-bottom: 16px; /* Reduz a margem inferior */
   }
+
   .introducao img {
-    height: 300px;
-    width: 100%;
+    height: auto; /* Remove a altura fixa e mantém a proporção */
+    width: 100%; /* A imagem continua a ocupar 100% da largura */
   }
 }
