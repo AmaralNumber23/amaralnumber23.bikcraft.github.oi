@@ -1,1 +1,1 @@
-https://github.com/AmaralNumber23/amaralnumber23.bikcraft.github.oi/tree/main
+https://amaralnumber23.github.io/amaralnumber23.bikcraft.github.oi/
